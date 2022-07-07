@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+//this piece of code use for link tag
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+a{
+  font-family: Roboto;
+  cursor: pointer;
+}
+//this piece of code use for H2 tag
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+h2{
+  font-family: 'Playfair Display', serif;
+}
+//this piece of code use for side navbar to control the responsiveness
+.App{
+  margin-left: 200px;
+  background: #2C2D2F;
+}
+@media screen and (max-width: 767px){
+  .App{
+    margin-left: 0px;
+  }
+}
+.home{
+  font-size: 30px;
+  color: black;
+}
